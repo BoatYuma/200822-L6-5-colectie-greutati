@@ -13,9 +13,10 @@ public class ColectieGreutati {
         int capacitateTotala = 0, nr = 0;
         for (Greutati greutati : colectieGreutati
         ) {
+            if (greutati!=null){
             nr++;
             capacitateTotala = capacitateTotala + greutati.capacitate();
-        }
+        }}
     return (capacitateTotala/nr);
     }
 

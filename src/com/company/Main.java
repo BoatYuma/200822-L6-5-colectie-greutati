@@ -21,6 +21,6 @@ public class Main {
         Multiple g3 = new Multiple(ga);
         colectie1.adauga(g3);
 
-        colectie1.medie();
+        System.out.println(colectie1.medie());
     }
 }
