@@ -10,8 +10,8 @@ public class Multiple extends Greutati {
 
     public int capacitate() {
         int capacitate = 0;
-        for (Greutati g : greutatiMultiple) {
-            capacitate = capacitate + g.capacitate();
+        for (Greutati greutatiM : greutatiMultiple) {
+            capacitate = capacitate + greutatiM.capacitate();
         }
         return capacitate;
     }

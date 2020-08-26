@@ -6,20 +6,20 @@ public class Main {
         // write your code here
         ColectieGreutati colectie1 = new ColectieGreutati();
 
-        Simple g1 = new Simple(23);
-        colectie1.adauga(g1);
+        Simple greutate1 = new Simple(23);
+        colectie1.adauga(greutate1);
 
-        Greutati g21 = new Greutati(34);
-        Greutati g22 = new Greutati(65);
-        Duble g2 = new Duble(g21, g22);
-        colectie1.adauga(g2);
+        Greutati greutate21 = new Greutati(34);
+        Greutati greutate22 = new Greutati(65);
+        Duble greutate2 = new Duble(greutate21, greutate22);
+        colectie1.adauga(greutate2);
 
-        Greutati[] ga = new Greutati[3];
-        ga[0] = g1;
-        ga[1] = g2;
-        ga[2] = new Simple(100);
-        Multiple g3 = new Multiple(ga);
-        colectie1.adauga(g3);
+        Greutati[] greutateA = new Greutati[3];
+        greutateA[0] = greutate1;
+        greutateA[1] = greutate2;
+        greutateA[2] = new Simple(100);
+        Multiple greutate3 = new Multiple(greutateA);
+        colectie1.adauga(greutate3);
 
         System.out.println(colectie1.medie());
     }

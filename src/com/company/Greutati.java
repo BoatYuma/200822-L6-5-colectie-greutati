@@ -1,7 +1,7 @@
 package com.company;
 
 public class Greutati {
-    int capacitate=0;
+    int capacitate = 0;
 
     public Greutati() {
 
