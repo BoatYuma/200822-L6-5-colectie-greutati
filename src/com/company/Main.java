@@ -21,6 +21,6 @@ public class Main {
         Multiple greutate3 = new Multiple(greutateA);
         colectie1.adauga(greutate3);
 
-        System.out.println(colectie1.medie());
+        System.out.println("Medie: "+colectie1.medie());
     }
 }
