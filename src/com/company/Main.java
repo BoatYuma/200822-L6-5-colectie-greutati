@@ -3,24 +3,27 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+
         ColectieGreutati colectie1 = new ColectieGreutati();
 
-        Simple g1 = new Simple(23);
-        colectie1.adauga(g1);
+        //greutate simpla
+        Simple greutate1Simpla = new Simple(23);
+        colectie1.adauga(greutate1Simpla);
 
-        Greutati g21 = new Greutati(34);
-        Greutati g22 = new Greutati(65);
-        Duble g2 = new Duble(g21, g22);
-        colectie1.adauga(g2);
+        //greutate dubla
+        Greutati greutate21Simpla = new Greutati(34);
+        Greutati greutate22Simpla = new Greutati(65);
+        Duble greutate2Dubla = new Duble(greutate21Simpla, greutate22Simpla);
+        colectie1.adauga(greutate2Dubla);
 
-        Greutati[] ga = new Greutati[3];
-        ga[0] = g1;
-        ga[1] = g2;
-        ga[2] = new Simple(100);
-        Multiple g3 = new Multiple(ga);
-        colectie1.adauga(g3);
+        //greutate multipla
+        Greutati[] greutateAMultipla = new Greutati[3];
+        greutateAMultipla[0] = greutate1Simpla;
+        greutateAMultipla[1] = greutate2Dubla;
+        greutateAMultipla[2] = new Simple(100);
+        Multiple greutate3Multipla = new Multiple(greutateAMultipla);
+        colectie1.adauga(greutate3Multipla);
 
-        System.out.println(colectie1.medie());
+        System.out.println("Medie: " + colectie1.medie());
     }
 }

@@ -1,17 +1,17 @@
 package com.company;
 
 public class Multiple extends Greutati {
-    Greutati[] greutatiMultiple = new Greutati[10];
+    private Greutati[] greutatiMultiple;
 
     public Multiple(Greutati[] greutatiMultiple) {
         super();
         this.greutatiMultiple = greutatiMultiple;
     }
 
-    public int capacitate() {
+    public int getCapacitate() {
         int capacitate = 0;
-        for (Greutati g : greutatiMultiple) {
-            capacitate = capacitate + g.capacitate();
+        for (Greutati greutatiM : greutatiMultiple) {
+            capacitate = capacitate + greutatiM.getCapacitate();
         }
         return capacitate;
     }

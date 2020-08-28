@@ -1,7 +1,7 @@
 package com.company;
 
 public class Greutati {
-    int capacitate=0;
+    private int capacitate = 0;
 
     public Greutati() {
 
@@ -11,7 +11,11 @@ public class Greutati {
         this.capacitate = capacitate;
     }
 
-    public int capacitate() {
+    public void setCapacitate(int capacitate) {
+        this.capacitate = capacitate;
+    }
+
+    public int getCapacitate() {
         return capacitate;
     }
 }
