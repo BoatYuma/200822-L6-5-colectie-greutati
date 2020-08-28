@@ -15,7 +15,7 @@ public class ColectieGreutati {
         ) {
             if (greutati != null) {
                 nr++;
-                capacitateTotala = capacitateTotala + greutati.capacitate();
+                capacitateTotala = capacitateTotala + greutati.getCapacitate();
             }
         }
         return (capacitateTotala / nr);

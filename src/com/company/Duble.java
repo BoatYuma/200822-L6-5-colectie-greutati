@@ -16,7 +16,7 @@ public class Duble extends Greutati {
         this.greutate2 = greutate2;
     }
 
-    public int capacitate() {
-        return (greutate1.capacitate() + greutate2.capacitate());
+    public int getCapacitate() {
+        return (greutate1.getCapacitate() + greutate2.getCapacitate());
     }
 }
