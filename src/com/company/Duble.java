@@ -1,7 +1,7 @@
 package com.company;
 
 public class Duble extends Greutati {
-    Greutati greutate1, greutate2;
+    private Greutati greutate1, greutate2;
 
     public Duble(Greutati greutate1, Greutati greutate2) {
         this.greutate1 = greutate1;

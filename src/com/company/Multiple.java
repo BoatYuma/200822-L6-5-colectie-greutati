@@ -1,7 +1,7 @@
 package com.company;
 
 public class Multiple extends Greutati {
-    Greutati[] greutatiMultiple;
+    private Greutati[] greutatiMultiple;
 
     public Multiple(Greutati[] greutatiMultiple) {
         super();

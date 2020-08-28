@@ -1,8 +1,8 @@
 package com.company;
 
 public class ColectieGreutati {
-    Greutati[] colectieGreutati = new Greutati[10];
-    int nrGreutati = 0;
+    private Greutati[] colectieGreutati = new Greutati[10];
+    private int nrGreutati = 0;
 
     public void adauga(Greutati greutate) {
         nrGreutati++;
