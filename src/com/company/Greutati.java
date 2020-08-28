@@ -11,10 +11,6 @@ public class Greutati {
         this.capacitate = capacitate;
     }
 
-    //public int capacitate() {
-    //    return capacitate;
-    //}
-
     public void setCapacitate(int capacitate) {
         this.capacitate = capacitate;
     }
